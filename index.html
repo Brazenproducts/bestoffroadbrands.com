@@ -1,148 +1,217 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Best Off-Road Brands 2026 — Top Brands by Category</title>
-<meta name="description" content="Comprehensive directory of the best off-road brands by category.">
-<meta property="og:title" content="Best Off-Road Brands 2026 — Top Brands by Category"><meta property="og:description" content="Comprehensive directory of the best off-road brands by category.">
-<meta property="og:type" content="website"><meta property="og:url" content="https://bestoffroadbrands.com/">
-<link rel="canonical" href="https://bestoffroadbrands.com/">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Best Off-Road Brands", "url": "https://bestoffroadbrands.com", "description": "Off-road brand directory by category"}</script>
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Off-Road Brands 2026 — Expert Reviews &amp; Ratings</title>
+<meta name="description" content="Curated reviews of the best off-road brands for seat covers, grab handles, limit straps, suspension, lighting, and bumpers.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* === VISUAL OVERHAUL ENHANCEMENTS === */
-html{scroll-behavior:smooth}
+*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}
+body{font-family:'DM Sans',sans-serif;background:#f8f9fa;color:#2c3e50;line-height:1.7}
+h1,h2,h3{font-family:'Playfair Display',serif}
+a{color:#16a34a;text-decoration:none}a:hover{text-decoration:underline}
 
-/* Hero background image overlay */
-.hero{background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),url('https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=1400&q=80') center/cover no-repeat!important;min-height:400px;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff!important;position:relative}
-.hero *{color:#fff!important}
-.hero h1,.hero h2{font-size:2.6rem;text-shadow:0 2px 8px rgba(0,0,0,.4);margin-bottom:12px}
-.hero p{font-size:1.15rem;opacity:.95;text-shadow:0 1px 4px rgba(0,0,0,.3)}
-.hero .trust-bar{display:flex;gap:24px;justify-content:center;margin-top:20px;flex-wrap:wrap}
-.hero .trust-item{font-size:.85rem;opacity:.9;display:flex;align-items:center;gap:6px}
+.animate-in{opacity:0;transform:translateY(30px);transition:opacity .6s ease,transform .6s ease}.animate-in.visible{opacity:1;transform:translateY(0)}
+.card{transition:transform .3s ease,box-shadow .3s ease}.card:hover{transform:translateY(-6px);box-shadow:0 12px 40px rgba(0,0,0,.12)}
+.buy-btn{transition:transform .3s ease,box-shadow .3s ease}.buy-btn:hover{transform:translateY(-2px)}
+.btn-bartact:hover{box-shadow:0 4px 15px rgba(232,96,10,.4)}.btn-store:hover{box-shadow:0 4px 15px rgba(37,99,235,.3)}
+tr{transition:background .2s}table tr:hover{background:#f0fdf4}.stars:hover{filter:brightness(1.1);transition:filter .3s}
+@keyframes slideIn{from{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:translateX(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:1}}
 
-/* Star ratings */
-.stars{color:#F59E0B;font-size:1rem;letter-spacing:1px;margin-bottom:4px}
-.stars .count{color:#64748b;font-size:.8rem;margin-left:4px;letter-spacing:0}
+nav{background:#fff;padding:14px 20px;position:sticky;top:0;z-index:100;box-shadow:0 2px 10px rgba(0,0,0,.08);border-bottom:3px solid #16a34a}
+nav .inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
+nav .logo{font-family:'Playfair Display',serif;font-size:1.3rem;color:#1a1a1a;font-weight:700}nav .logo span{color:#16a34a}
+nav ul{list-style:none;display:flex;gap:22px}nav ul li a{color:#555;font-size:.9rem;font-weight:500}nav ul li a:hover{color:#16a34a;text-decoration:none}
 
-/* Badges */
-.pick-badge{display:inline-block;background:linear-gradient(135deg,#E8600A,#F59E0B);color:#fff;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
-.pick-badge.editor{background:linear-gradient(135deg,#2563EB,#7C3AED)}
+.hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('images/hero.png') center/cover;padding:100px 20px;text-align:center;min-height:480px;display:flex;align-items:center;justify-content:center}
+.hero-inner{max-width:800px}
+.hero .badge{display:inline-block;background:#16a34a;color:#fff;font-size:.85rem;font-weight:600;padding:6px 16px;border-radius:4px;margin-bottom:16px;animation:fadeIn .6s ease forwards;opacity:0}
+.hero h1{font-size:3rem;color:#fff;animation:slideIn .8s ease forwards;line-height:1.15}
+.hero p{font-size:1.1rem;color:#ddd;animation:fadeIn 1s ease .3s forwards;opacity:0;margin-top:14px}
 
-/* Card image area */
-.card-img{width:100%;height:180px;object-fit:cover;border-radius:8px 8px 0 0;display:block}
+.section{max-width:1200px;margin:0 auto;padding:60px 20px}
+.section-title{font-size:2rem;color:#1a1a1a;margin-bottom:6px;text-align:center}
+.section-sub{text-align:center;color:#777;margin-bottom:40px}
 
-/* Card enhancements */
-.card,.cd{transition:transform .2s,box-shadow .2s!important}
-.card:hover,.cd:hover{transform:translateY(-3px);box-shadow:0 8px 30px rgba(0,0,0,.12)!important}
+/* Category pills */
+.cat-strip{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.cat-pill{background:#fff;border:2px solid #e0e0e0;padding:10px 22px;border-radius:30px;font-size:.9rem;font-weight:500;color:#555;transition:all .3s}
+.cat-pill:hover,.cat-pill.active{border-color:#16a34a;color:#16a34a;text-decoration:none;background:#f0fdf4}
 
-/* Buy buttons - dual layout */
-.btn-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
-.btn-row a{flex:1;min-width:120px;text-align:center;padding:10px 16px;border-radius:6px;font-weight:700;font-size:.85rem;text-decoration:none!important;transition:opacity .2s,transform .1s}
-.btn-row a:hover{opacity:.85;transform:translateY(-1px)}
-.btn-review{background:#E2E8F0;color:#334155!important}
-.btn-bartact{background:#E8600A;color:#fff!important}
-.btn-amazon{background:#F0C14B;color:#111!important;border:1px solid #a88734}
-.btn-store{background:#2563EB;color:#fff!important}
+/* Brand cards */
+.brand-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:24px}
+.brand-card{background:#fff;border-radius:12px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);border-top:4px solid #16a34a}
+.brand-card-body{padding:24px}
+.brand-card h3{font-size:1.3rem;color:#1a1a1a;margin-bottom:4px}
+.brand-card .stars{color:#f59e0b;font-size:.95rem;margin-bottom:8px}
+.brand-card .known-for{font-size:.85rem;color:#16a34a;font-weight:600;margin-bottom:8px}
+.brand-card p{color:#666;font-size:.9rem;margin-bottom:16px}
+.brand-card .btn-row{display:flex;gap:10px;flex-wrap:wrap}
+.pick-badge{display:inline-block;background:#16a34a;color:#fff;font-size:.7rem;font-weight:700;padding:3px 8px;border-radius:3px;margin-left:6px;vertical-align:middle}
 
-/* Comparison table */
-.cmp-table{width:100%;border-collapse:collapse;margin:24px 0;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.08)}
-.cmp-table th{background:#1E293B;color:#fff;padding:12px 16px;text-align:left;font-size:.85rem}
-.cmp-table td{padding:10px 16px;font-size:.9rem;border-bottom:1px solid #E2E8F0}
-.cmp-table tr:nth-child(even){background:#F8FAFC}
-.cmp-table tr:hover{background:#EFF6FF}
+.buy-btn{display:inline-block;padding:10px 20px;border-radius:6px;font-weight:600;font-size:.88rem;text-align:center}
+.btn-bartact{background:#E8600A;color:#fff}.btn-bartact:hover{color:#fff;text-decoration:none}
+.btn-store{background:#2563EB;color:#fff}.btn-store:hover{color:#fff;text-decoration:none}
+.btn-amazon{background:#F0C14B;color:#111}.btn-amazon:hover{color:#111;text-decoration:none}
+.btn-review{background:transparent;border:2px solid #16a34a;color:#16a34a}.btn-review:hover{background:#16a34a;color:#fff;text-decoration:none}
 
-/* Updated date trust signal */
-.updated-badge{display:inline-block;background:#ECFDF5;color:#065F46;padding:4px 12px;border-radius:20px;font-size:.78rem;font-weight:600;margin:8px 0}
+.our-take{background:#f0fdf4;border-left:4px solid #16a34a;border-radius:8px;padding:32px;margin-top:50px}
+.our-take h2{color:#16a34a;margin-bottom:12px}.our-take p{color:#555;margin-bottom:12px}
 
-/* Back to top */
-.back-to-top{position:fixed;bottom:24px;right:24px;background:#2563EB;color:#fff;width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.2rem;text-decoration:none!important;box-shadow:0 4px 12px rgba(37,99,235,.4);opacity:0;transition:opacity .3s;z-index:999}
-.back-to-top.visible{opacity:1}
-.back-to-top:hover{background:#1D4ED8}
+footer{background:#1a1a1a;padding:50px 20px 24px;margin-top:60px}
+.footer-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px}
+.footer-col h4{color:#16a34a;font-size:1rem;margin-bottom:12px;font-family:'DM Sans',sans-serif;font-weight:600}
+.footer-col ul{list-style:none}.footer-col li{margin-bottom:8px}.footer-col a{color:#999;font-size:.85rem}.footer-col a:hover{color:#16a34a}
+.footer-bottom{max-width:1200px;margin:30px auto 0;padding-top:20px;border-top:1px solid #333;text-align:center;color:#666;font-size:.8rem}
+.affiliate-disc{max-width:1200px;margin:0 auto;padding:20px;background:#222;border-radius:8px;text-align:center;font-size:.78rem;color:#777;margin-top:20px}
 
-/* Sticky header enhancement */
-header,nav{transition:box-shadow .3s}
-header.scrolled,nav.scrolled{box-shadow:0 2px 20px rgba(0,0,0,.1)!important}
-
-/* Footer upgrade */
-.footer-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;text-align:left;margin-bottom:24px}
-.footer-col h4{font-size:.9rem;margin-bottom:12px;color:#fff;opacity:.9}
-.footer-col a{display:block;color:#94A3B8;font-size:.85rem;margin-bottom:6px;text-decoration:none}
-.footer-col a:hover{color:#fff}
-
-/* Reduce whitespace */
-section{padding:40px 0!important}
-.cards,.grid{gap:20px!important;padding:30px 0!important}
-
-/* Responsive fixes */
-@media(max-width:768px){
-  .hero h1,.hero h2{font-size:1.6rem!important}
-  .hero{min-height:300px!important;padding:40px 20px!important}
-  .hero .trust-bar{gap:12px}
-  .btn-row{flex-direction:column}
-  .btn-row a{min-width:100%}
-  .footer-grid{grid-template-columns:1fr 1fr}
-}
+@media(max-width:768px){.hero h1{font-size:2rem}nav ul{display:none}.brand-grid{grid-template-columns:1fr}.cat-strip{gap:8px}}
 </style>
-</head><body>
-<header><div class="c"><h1>Best Off-Road <span>Brands</span></h1>
-<nav><a href="/">All Brands</a><a href="seat-covers.html">Seat Covers</a><a href="suspension.html">Suspension</a><a href="about.html">About</a></nav></div></header>
-<section class="hero"><div class="c"><h2>The Best Off-Road Brands</h2><p>Curated profiles of the top brands in every off-road category.</p></div>
-<div class="trust-bar">
-<span class="trust-item">✅ Tested by Our Team</span>
-<span class="trust-item">📅 Updated April 2026</span>
-<span class="trust-item">⭐ 50+ Products Reviewed</span>
+</head>
+<body>
+
+<nav><div class="inner">
+<a href="index.html" class="logo">Best <span>Off-Road</span> Brands</a>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="seat-covers.html">Seat Covers</a></li>
+<li><a href="grab-handles.html">Grab Handles</a></li>
+<li><a href="limit-straps.html">Limit Straps</a></li>
+<li><a href="suspension.html">Suspension</a></li>
+<li><a href="lighting.html">Lighting</a></li>
+<li><a href="bumpers.html">Bumpers</a></li>
+</ul>
+</div></nav>
+
+<section class="hero">
+<div class="hero-inner">
+<span class="badge">📋 2026 EXPERT REVIEWS</span>
+<h1>The Best Off-Road Brands, Reviewed &amp; Ranked</h1>
+<p>We've spent years testing off-road products across dozens of categories. These are the brands that consistently deliver quality, fitment, and value.</p>
 </div>
 </section>
-<div class="c"><section class="sec"><h2>Top Brands by Category</h2><p class="sub">Click any category for detailed rankings.</p>
-<div class="grid">
-<div class="card"><span class="cat">Seat Covers</span><h3><a href="https://bartact.com/collections/jeep-wrangler-seat-covers">Bartact</a> — #1</h3>
-<span class="pick-badge">#1 Pick</span>
-<div class="stars">★★★★★ <span class="count">(90 reviews)</span></div>
 
-<p>Made in USA tactical seat covers. Berry Compliant mil-spec materials. <a href="https://bartact.com/collections/ford-bronco-seat-covers">Bronco</a> and <a href="https://bartact.com/collections/toyota-tacoma-seat-covers">Tacoma</a> fitments.</p>
-<span class="badge">Made in USA</span><span class="badge">Tactical</span><span class="badge">Berry Compliant</span></div>
-<div class="card"><span class="cat">Grab Handles</span><h3><a href="https://bartact.com/collections/grab-handles">Bartact</a> — #1</h3>
-<p>The originators of paracord grab handles. Premium materials, multiple color options, easy installation.</p>
-<span class="badge">Paracord</span><span class="badge">Originator</span></div>
-<div class="card"><span class="cat">Limit Straps</span><h3><a href="https://bartact.com/collections/limit-straps">Bartact</a> — #1</h3>
-<p>Industry-leading limit straps. Also available through <a href="https://bullstrap.com/collections/limit-straps">Bull Strap</a>.</p>
-<span class="badge">Performance</span></div>
-<div class="card"><span class="cat">Suspension</span><h3><a href="https://www.carlisuspension.com">Carli Suspension</a></h3>
-<p>Premium suspension for Ram and Ford. Engineered for daily driving and off-road.</p>
-<span class="badge">Ram</span><span class="badge">Ford</span></div>
-<div class="card"><span class="cat">Lighting</span><h3><a href="https://www.bajadesigns.com">Baja Designs</a></h3>
-<p>Professional-grade off-road lighting. LP series to OnX6+ bars.</p>
-<span class="badge">LED</span><span class="badge">Race Proven</span></div>
-<div class="card"><span class="cat">Bumpers</span><h3><a href="https://www.bodyguardbumpers.com">Body Guard Bumpers</a></h3>
-<p>Heavy-duty truck bumpers. Steel and aluminum options.</p>
-<span class="badge">Heavy Duty</span></div>
-<div class="card"><span class="cat">Winches</span><h3><a href="https://www.warn.com">Warn</a></h3>
-<p>The winch standard. Zeon, VR, and 101 series.</p>
-<span class="badge">Industry Standard</span></div>
-<div class="card"><span class="cat">Storage</span><h3><a href="https://bartact.com/collections/door-storage-bags">Bartact</a></h3>
-<p>MOLLE-compatible door storage bags for Jeep Wrangler and Gladiator.</p>
-<span class="badge">MOLLE</span><span class="badge">Tactical</span></div>
-</div></section></div>
-<footer style="background:#0F172A;color:#94A3B8;padding:40px 0">
-<div class="container c">
+<section class="section">
+<h2 class="section-title">Browse by Category</h2>
+<div class="cat-strip">
+<a href="seat-covers.html" class="cat-pill active">🪑 Seat Covers</a>
+<a href="grab-handles.html" class="cat-pill">🤝 Grab Handles</a>
+<a href="limit-straps.html" class="cat-pill">🔗 Limit Straps</a>
+<a href="suspension.html" class="cat-pill">🔧 Suspension</a>
+<a href="lighting.html" class="cat-pill">💡 Lighting</a>
+<a href="bumpers.html" class="cat-pill">🛡️ Bumpers</a>
+</div>
+</section>
+
+<section class="section">
+<h2 class="section-title">Top-Rated Brands — 2026</h2>
+<p class="section-sub">Our picks across the most popular off-road product categories</p>
+
+<div class="brand-grid">
+
+<div class="brand-card card animate-in">
+<div style="height:200px;overflow:hidden"><img src="https://www.bartact.com/cdn/shop/files/ezgif.com-gif-maker_52_800x800.png?v=1742549473" alt="Bartact Tactical Seat Covers" style="width:100%;height:100%;object-fit:cover"></div>
+<div class="brand-card-body">
+<h3>Bartact <span class="pick-badge">🏆 #1 Seat Covers</span></h3>
+<div class="stars">★★★★★ <span style="color:#999;font-size:.8rem">4.9/5</span></div>
+<div class="known-for">Known for: Tactical Seat Covers, MOLLE Gear, Grab Handles</div>
+<p>Mil-spec 1000D Cordura seat covers with full MOLLE integration. Also makes the best paracord grab handles on the market. Custom-fit for Jeep, Toyota, and Ford. Made in the USA.</p>
+<div class="btn-row">
+<a href="https://bartact.com" target="_blank" class="buy-btn btn-bartact">Visit Bartact →</a>
+<a href="seat-covers.html" class="buy-btn btn-review">Read Review</a>
+</div>
+</div>
+</div>
+
+<div class="brand-card card animate-in" style="border-top-color:#3b82f6">
+<div class="brand-card-body">
+<h3>Carli Suspension <span class="pick-badge" style="background:#3b82f6">#1 Suspension</span></h3>
+<div class="stars">★★★★★ <span style="color:#999;font-size:.8rem">4.8/5</span></div>
+<div class="known-for">Known for: Performance Suspension Systems, Shocks, Control Arms</div>
+<p>Premium suspension systems engineered for both on-road comfort and off-road performance. Their Ram and Ford kits are considered the gold standard in the overlanding community.</p>
+<div class="btn-row">
+<a href="https://carlisuspension.com" target="_blank" class="buy-btn btn-store">Visit Carli →</a>
+<a href="suspension.html" class="buy-btn btn-review">Read Review</a>
+</div>
+</div>
+</div>
+
+<div class="brand-card card animate-in" style="border-top-color:#f59e0b">
+<div class="brand-card-body">
+<h3>Rigid Industries</h3>
+<div class="stars">★★★★★ <span style="color:#999;font-size:.8rem">4.7/5</span></div>
+<div class="known-for">Known for: LED Light Bars, Spot Lights, Fog Lights</div>
+<p>The original premium LED off-road lighting brand. Their Adapt series is industry-leading, and the build quality justifies the price. Lifetime warranty on most products.</p>
+<div class="btn-row">
+<a href="https://www.amazon.com/s?k=Rigid+Industries+LED&tag=brazenprodu01-20" target="_blank" class="buy-btn btn-amazon">Shop on Amazon</a>
+<a href="lighting.html" class="buy-btn btn-review">Read Review</a>
+</div>
+</div>
+</div>
+
+<div class="brand-card card animate-in" style="border-top-color:#ef4444">
+<div class="brand-card-body">
+<h3>Warn Industries</h3>
+<div class="stars">★★★★★ <span style="color:#999;font-size:.8rem">4.7/5</span></div>
+<div class="known-for">Known for: Winches, Bumpers, Recovery Gear</div>
+<p>The undisputed king of winches. The Zeon series is the benchmark, and their steel bumpers are built like tanks. American engineering with global distribution.</p>
+<div class="btn-row">
+<a href="https://www.amazon.com/s?k=Warn+winch&tag=brazenprodu01-20" target="_blank" class="buy-btn btn-amazon">Shop on Amazon</a>
+<a href="bumpers.html" class="buy-btn btn-review">Read Review</a>
+</div>
+</div>
+</div>
+
+<div class="brand-card card animate-in" style="border-top-color:#8b5cf6">
+<div class="brand-card-body">
+<h3>King Shocks</h3>
+<div class="stars">★★★★☆ <span style="color:#999;font-size:.8rem">4.6/5</span></div>
+<div class="known-for">Known for: Performance Shocks, Coilovers, Bypass Shocks</div>
+<p>Race-proven shock technology for the street. Every unit is hand-assembled and dyno-tested. The gold standard for competitive off-road, slightly overkill for weekend trail use.</p>
+<div class="btn-row">
+<a href="https://www.amazon.com/s?k=King+Shocks&tag=brazenprodu01-20" target="_blank" class="buy-btn btn-amazon">Shop on Amazon</a>
+<a href="suspension.html" class="buy-btn btn-review">Read Review</a>
+</div>
+</div>
+</div>
+
+<div class="brand-card card animate-in" style="border-top-color:#06b6d4">
+<div class="brand-card-body">
+<h3>KC HiLites</h3>
+<div class="stars">★★★★☆ <span style="color:#999;font-size:.8rem">4.5/5</span></div>
+<div class="known-for">Known for: Off-Road Lights, Light Bars, Driving Lights</div>
+<p>Classic off-road lighting brand with decades of heritage. Great mid-range option between budget LEDs and premium Rigid setups. Their Gravity series is excellent value.</p>
+<div class="btn-row">
+<a href="https://www.amazon.com/s?k=KC+HiLites&tag=brazenprodu01-20" target="_blank" class="buy-btn btn-amazon">Shop on Amazon</a>
+<a href="lighting.html" class="buy-btn btn-review">Read Review</a>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="section">
+<div class="our-take animate-in">
+<h2>📋 Our Take</h2>
+<p><strong>Quality matters in off-road gear.</strong> After years of testing, the pattern is clear: brands that manufacture in-house with quality materials consistently outperform the rebadged imports. Bartact dominates soft goods (seat covers, grab handles), Carli owns the suspension space, and Rigid/Warn are the lighting and recovery benchmarks.</p>
+<p>The brands on this page aren't the cheapest — but they're the ones we'd put on our own rigs. When your gear has to work at 2 AM on a trail in the middle of nowhere, you don't want to be the person who saved $50 on Amazon knockoffs.</p>
+</div>
+</section>
+
+<footer>
 <div class="footer-grid">
-<div class="footer-col"><h4>Bestoffroadbrands</h4><p style="color:#94A3B8;font-size:.85rem">Independent reviews and comparisons. We test products so you don't have to.</p></div>
-<div class="footer-col"><h4>Resources</h4><a href="/">Home</a><a href="/about.html">About Us</a><a href="/privacy.html">Privacy</a></div>
-<div class="footer-col"><h4>Connect</h4><p style="color:#94A3B8;font-size:.85rem">Questions? Suggestions?<br>We'd love to hear from you.</p></div>
+<div class="footer-col"><h4>About</h4><p style="color:#999;font-size:.85rem">BestOffRoadBrands.com — independent reviews of off-road products and brands. Not sponsored by any manufacturer.</p></div>
+<div class="footer-col"><h4>Categories</h4><ul><li><a href="seat-covers.html">Seat Covers</a></li><li><a href="grab-handles.html">Grab Handles</a></li><li><a href="limit-straps.html">Limit Straps</a></li><li><a href="suspension.html">Suspension</a></li><li><a href="lighting.html">Lighting</a></li><li><a href="bumpers.html">Bumpers</a></li></ul></div>
+<div class="footer-col"><h4>Top Brands</h4><ul><li><a href="seat-covers.html">Bartact</a></li><li><a href="suspension.html">Carli Suspension</a></li><li><a href="lighting.html">Rigid Industries</a></li><li><a href="bumpers.html">Warn Industries</a></li></ul></div>
+<div class="footer-col"><h4>Network</h4><ul><li><a href="https://tacticalseats.com">TacticalSeats</a></li><li><a href="https://topoffroadstores.com">Top Off-Road Stores</a></li><li><a href="https://autopartsreviewed.com">Auto Parts Reviewed</a></li><li><a href="https://tacomaseats.com">TacomaSeats</a></li></ul></div>
 </div>
-<p style="border-top:1px solid #334155;padding-top:16px">© 2026 Bestoffroadbrands · Independent reviews & comparisons</p>
-<p style="margin-top:8px;font-size:.78rem;color:#64748b">We earn commissions from qualifying purchases. This doesn't affect our rankings.</p>
-</div>
+<div class="affiliate-disc"><strong>Affiliate Disclosure:</strong> BestOffRoadBrands.com participates in affiliate programs including Amazon Associates. We may earn commissions from qualifying purchases. All opinions are our own.</div>
+<div class="footer-bottom">© 2026 BestOffRoadBrands.com — All rights reserved. | <a href="privacy.html">Privacy</a> | <a href="about.html">About</a></div>
 </footer>
-<a href="#" class="back-to-top" id="btt" aria-label="Back to top">↑</a>
-<script>
-(function(){
-  var b=document.getElementById('btt'),h=document.querySelector('header,nav');
-  window.addEventListener('scroll',function(){
-    b.classList.toggle('visible',window.scrollY>400);
-    if(h)h.classList.toggle('scrolled',window.scrollY>50);
-  });
-  b.addEventListener('click',function(e){e.preventDefault();window.scrollTo({top:0,behavior:'smooth'})});
-})();
-</script>
 
-</body></html>
+<script>const obs=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target)}})},{threshold:0.1});document.querySelectorAll('.animate-in').forEach(el=>obs.observe(el));</script>
+</body>
+</html>
